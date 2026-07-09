@@ -57,7 +57,7 @@ function PortfolioRow({
       <div
         ref={rowRef}
         id={`page-${page}`}
-        className="block bg-[#171717] leading-[0]"
+        className="block bg-[#171717] pb-2 leading-[0]"
       >
         <Image
           src={src}

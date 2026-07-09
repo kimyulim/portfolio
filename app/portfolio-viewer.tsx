@@ -122,20 +122,20 @@ export default function PortfolioViewer() {
         ref={headerRef}
         className="fixed top-0 left-0 z-50 w-full border-b border-white/10 bg-[#171717]/70 backdrop-blur-md"
       >
-        <div className="flex items-center justify-between gap-6 px-8 py-4">
-          <div className="flex min-w-0 flex-row items-center gap-4 text-white">
+        <div className="flex items-center justify-between gap-4 px-8 py-4 md:gap-6">
+          <div className="flex min-w-0 flex-1 flex-wrap items-center gap-x-4 gap-y-1 text-white md:flex-nowrap">
             <span className="shrink-0 font-bold tracking-tight">
               {CONTACT.name}
             </span>
             <a
               href={`mailto:${CONTACT.email}`}
-              className="shrink-0 text-sm text-white no-underline transition-transform visited:text-white hover:scale-95 hover:text-white/80"
+              className="text-sm text-white no-underline transition-transform visited:text-white hover:scale-95 hover:text-white/80 md:shrink-0"
             >
               {CONTACT.email}
             </a>
             <a
               href={`tel:${CONTACT.phone.replace(/\./g, "")}`}
-              className="shrink-0 text-sm text-white no-underline transition-transform visited:text-white hover:scale-95 hover:text-white/80"
+              className="text-sm text-white no-underline transition-transform visited:text-white hover:scale-95 hover:text-white/80 md:shrink-0"
             >
               {CONTACT.phone}
             </a>
