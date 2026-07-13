@@ -12,7 +12,7 @@ const NAV_INDEX = [
   { id: "3", label: "2.Kyeol", page: 42 },
   { id: "4", label: "3.Coway", page: 74 },
   { id: "5", label: "4.HouseHero", page: 85 },
-  { id: "6", label: "5.PDP", page: 113 },
+  { id: "6", label: "5.PDP", page: 114 },
 ] as const;
 
 type NavItem = {
