@@ -4,7 +4,7 @@
 
 export const PORTFOLIO_IMAGE_SIZES: ReadonlyArray<readonly [number, number]> = [
   [2560, 1440], // portfolio_1.png
-  [2560, 1440], // portfolio_2.png
+  [1920, 1080], // portfolio_2.png
   [2560, 1440], // portfolio_3.png
   [2560, 1440], // portfolio_4.png
   [2560, 1440], // portfolio_5.png
